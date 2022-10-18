@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "test",
+      "setup": "bash ./build.sh WhoWin.java",
+      "run": "bash ./run.sh WhoWin",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test",
+      "setup": "bash ./build.sh Parity.java",
+      "run": "bash ./run.sh Parity",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test",
+      "setup": "bash ./build.sh Outlier.java",
+      "run": "bash ./run.sh Outlier",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
